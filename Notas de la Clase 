@@ -1,0 +1,29 @@
+1) unificar css de los navegadores: normalize.css. En el index.js --> import 'normalize.css';
+
+2) crear un layout: creamos un componente 'Layout' y le aplicamos estilo css en un archivo que importaremos
+
+3) primera forma de aplicar estilos: de manera global, con index.css (que compila en index.js)
+
+4) segunda forma: con el atributo style dentro del componente: estilos en linea. No es lo que mas deberia usar
+
+5) vamos a aplicar un div sobre eso para darle un color mas oscuro pero transparente
+
+6) luego vamos a hacer un degrade sobre la imagen bkg. Pagina que nos simplifica la vida es
+cssgradient.io
+
+7) quiero que mi header tenga un ancho maximo de 960px, y si se sobrepasa el ancho de la pantalla, que lo centre
+
+8) al componente Nav vamos a aplicar css module. Esta metodologia tiene un monton de ventajas. El problema
+es con el uso de animaciones, no funciona
+
+9) en este ejercicio importamos tipografia de google fonts. Muy bueno.
+
+10) la cuarta forma de aplicar css es con la libreria styled-components: css dentro de Js
+
+11) orden en el que se aplican los estilos: 1) el de peor prioridad es el que se aplica a un tag (body, img, etc)
+el 2) es el que se indica por clase (.{}) y este menos prioridad que .clase > header, por ejemplo. Luego las
+clases que vienen por id, tienen mucha prioridad. Y el de mayor prioridad es el que viene por style='',
+es el que tiene maxima prioridad.
+!important es para zafar, cuando no puedo hacer aplicar un estilo.
+
+Recomendacion: css module o styled components

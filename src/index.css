@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+body {
+    background-color: #000;
+}
+
+.layout {
+    display: grid;
+    height: 100%;   /*el 100% de la altura visible del viewport*/
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6rem 1fr 8rem; 
+    position: relative;
+}
+
+.layout > header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.layout > header > img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    margin: 0.5rem;
+    position: absolute;
+    left: 0;
+}
