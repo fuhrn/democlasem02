@@ -32,9 +32,9 @@ const Layout = ({children}) => {
                 {/*por ello le voy a agregar esa propiead a esa imagen y al gradient, y los mando atras*/}
                 <img src={logo} alt='logo'/>
                 <Nav>
-                    <NavLink to='' text='About'/>
-                    <NavLink to='' text='Our Cofees'/>
-                    <NavLink to='' text='Contact'/>
+                    <NavLink to='/' text='About'/>
+                    <NavLink to='/ourcofee' text='Our Cofees'/>
+                    <NavLink to='/contact' text='Contact'/>
                 </Nav>
             </header>
             {children}
