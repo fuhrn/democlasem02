@@ -2,6 +2,7 @@ import bkg from '../assets/bkg.jpeg';
 import logo from '../assets/logo.svg';
 import Nav from "./Nav";
 import NavLink from "./NavLink";
+import About from './About';
 
 const Layout = ({children}) => {
     return (
@@ -31,8 +32,8 @@ const Layout = ({children}) => {
                 {/*por ello le voy a agregar esa propiead a esa imagen y al gradient, y los mando atras*/}
                 <img src={logo} alt='logo'/>
                 <Nav>
-                    <NavLink to='/about' text='About'/>
-                    <NavLink to='/variant' text='Variant'/>
+                    <NavLink to='' text='About'/>
+                    <NavLink to='/our_coffes' text='Our Cofees'/>
                     <NavLink to='/contact' text='Contact'/>
                 </Nav>
             </header>
