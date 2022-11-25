@@ -18,17 +18,20 @@ const Content = styled.main`
 
 function Variant() {
     return (
-        <Content>
-            <Card img={img1}
-                  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit libero, posuere nec diam sit amet, condimentum pretium nunc. Nulla facilisi. Integer dictum turpis eros."
-            />
-            <Card img={img1}
-                  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit libero, posuere nec diam sit amet, condimentum pretium nunc. Nulla facilisi. Integer dictum turpis eros."
-            />
-            <Card img={img1}
-                  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit libero, posuere nec diam sit amet, condimentum pretium nunc. Nulla facilisi. Integer dictum turpis eros."
-            />
-        </Content>
+      <Content>
+        <Card
+          img={img1}
+          text="Variant 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit libero, posuere nec diam sit amet, condimentum pretium nunc. Nulla facilisi. Integer dictum turpis eros."
+        />
+        <Card
+          img={img1}
+          text="Variant 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit libero, posuere nec diam sit amet, condimentum pretium nunc. Nulla facilisi. Integer dictum turpis eros."
+        />
+        <Card
+          img={img1}
+          text="Variant 3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris velit libero, posuere nec diam sit amet, condimentum pretium nunc. Nulla facilisi. Integer dictum turpis eros."
+        />
+      </Content>
     );
 }
 

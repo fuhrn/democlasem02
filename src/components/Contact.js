@@ -43,10 +43,10 @@ const Button = styled.button`
   }
 `;
 
-function About() {
+function Contact() {
   return (
     <Content>
-      <H>About Page</H>
+      <H>Contact Page</H>
       <P>
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -61,4 +61,4 @@ function About() {
   );
 }
 
-export default About;
+export default Contact;

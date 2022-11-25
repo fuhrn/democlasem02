@@ -43,10 +43,10 @@ const Button = styled.button`
   }
 `;
 
-function About() {
+function Ourcofee() {
   return (
     <Content>
-      <H>About Page</H>
+      <H>Our Cofees</H>
       <P>
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -61,4 +61,4 @@ function About() {
   );
 }
 
-export default About;
+export default Ourcofee;
