@@ -33,8 +33,8 @@ const Layout = ({children}) => {
                 <img src={logo} alt='logo'/>
                 <Nav>
                     <NavLink to='' text='About'/>
-                    <NavLink to='/our_coffes' text='Our Cofees'/>
-                    <NavLink to='/contact' text='Contact'/>
+                    <NavLink to='' text='Our Cofees'/>
+                    <NavLink to='' text='Contact'/>
                 </Nav>
             </header>
             {children}
