@@ -1,49 +1,6 @@
-import styled from "styled-components";
+import { Content, H, P } from "./StyledComponents.js";
 import Layout from "./Layout";
-import Variant from "./Variant";
 
-const Content = styled.main`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  width: 100%;
-  max-width: 1200px;
-  margin: 4rem auto;
-  align-items: center;
-  /* height: calc(100vh - 6rem - 8rem - 8rem); */
-`;
-
-const P = styled.p`
-  font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
-  color: #ffffff;
-`;
-
-const H = styled.p`
-  font-family: "Raleway", sans-serif;
-  font-size: 3rem;
-  color: #ffffff;
-`;
-
-const Button = styled.button`
-  width: fit-content;
-  min-width: 10rem;
-  height: fit-content;
-  padding: 1rem 4rem;
-  background-color: transparent;
-  border: 2px solid #ffffff;
-  border-radius: 1rem;
-  color: #fff;
-  font-family: Raleway, sans-serif;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.5s;
-
-  &:hover {
-    color: #000;
-    background-color: #ffffff;
-  }
-`;
 
 function Ourcofee() {
   return (
@@ -59,9 +16,7 @@ function Ourcofee() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."
         </P>
-        <Button>Ver más</Button>
       </Content>
-      <Variant />
     </Layout>
   );
 }

@@ -12,7 +12,7 @@ const Content = styled.main`
   margin: 4rem auto;
   align-items: center;
   /* min-height: 100vh; */ /* esto lo usaria si quisiera q este componente ocupara todo el vh */
-  height: calc(100vh - 6rem - 8rem - 8rem);
+  // height: calc(100vh - 6rem - 8rem - 8rem);
   justify-items: center;
 `;
 

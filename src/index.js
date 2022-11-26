@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Ourcofee from './components/Ourcofee';
 import Contact from "./components/Contact";
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import 'normalize.css';
+import About from './components/About';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/ourcofee" element={<Ourcofee />} />
       </Routes>
