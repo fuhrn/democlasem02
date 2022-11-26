@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Layout from "./Layout";
+import Variant from "./Variant";
 
 const Content = styled.main`
   display: grid;
@@ -60,6 +61,7 @@ function Ourcofee() {
         </P>
         <Button>Ver más</Button>
       </Content>
+      <Variant />
     </Layout>
   );
 }
